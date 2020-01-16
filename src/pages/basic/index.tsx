@@ -90,7 +90,7 @@ export default class BaseComponent extends Taro.Component {
                                         <AtButton type='secondary' size='small'>按钮</AtButton>
                                     </View>
                                     <View className='subitem'>
-                                        <AtButton size='small'>按钮</AtButton>
+                                        <AtButton size='small'>按钮 s</AtButton>
                                     </View>
                                 </View>
                                 <View className='btn-item'>

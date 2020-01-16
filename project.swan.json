@@ -1,0 +1,12 @@
+{
+    "host": "baiduboxapp",
+    "setting": {
+        "urlCheck": true
+    },
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.150.3",
+            "extensionJsVersion": "1.10.2"
+        }
+    }
+}

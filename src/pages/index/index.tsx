@@ -21,6 +21,31 @@ export default class Index extends Component<any, any> {
                     title: '视图',
                     content: '通告栏等8个组件',
                 },
+                {
+                    id: 'Feedback',
+                    title: '操作反馈',
+                    content: '对话框等7个组件',
+                },
+                {
+                    id: 'Data-entry',
+                    title: '数据录入',
+                    content: '输入框等13个组件',
+                },
+                {
+                    id: 'Layout',
+                    title: '布局',
+                    content: '列表等6个组件',
+                },
+                {
+                    id: 'Navigation',
+                    title: '导航',
+                    content: '标签栏等7个组件',
+                },
+                {
+                    id: 'Advanced',
+                    title: '高阶',
+                    content: '日历组件',
+                }
             ]
         }
     }
@@ -74,7 +99,7 @@ export default class Index extends Component<any, any> {
                     {list.map((item, index) => (
                         <View
                             className='module-list__item'
-                            key={index}
+                            key={item.id}
                             data-id={item.id}
                             data-name={item.title}
                             data-list={item.subpages}
