@@ -3,6 +3,7 @@ import React from 'react';
 
 import { View } from "@tarojs/components-rn";
 import indexStyleSheet from "./index_styles";
+
 import DocsHeader from "../../components/doc-header/index";
 import ToHome from "../../components/to-home/index";
 import ViewArticledemo from "./articledemo/index";

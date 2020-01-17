@@ -1,6 +1,7 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View, PickerView, PickerViewColumn } from '@tarojs/components';
+import './index.rn.scss'
+import { View, PickerView, PickerViewColumn } from '@tarojs/components'
 
 export default class DataEntryPickerView extends Taro.Component<any, any> {
     constructor(props: any) {

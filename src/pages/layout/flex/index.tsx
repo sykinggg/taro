@@ -1,6 +1,7 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
 
 export default class LayoutFlex extends Taro.Component {
     constructor(props: any) {

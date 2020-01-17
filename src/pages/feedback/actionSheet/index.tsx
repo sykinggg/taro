@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View, Text } from '@tarojs/components';
-import { AtActionSheet, AtActionSheetItem } from 'taro-ui';
+import './index.rn.scss'
+import { View, Text } from '@tarojs/components'
+import { AtActionSheet, AtActionSheetItem } from 'taro-ui'
 
 export default class FeedbackActionSheet extends Taro.Component<any, any> {
     constructor(props: any) {

@@ -2,6 +2,9 @@ import Taro from '@tarojs/taro';
 import { View } from '@tarojs/components';
 import { AtButton } from 'taro-ui';
 
+import './index.scss'
+import './index.rn.scss'
+
 export default class ToHome extends Taro.Component {
     constructor(props: any) {
         super(props);

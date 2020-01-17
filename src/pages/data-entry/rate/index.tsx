@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import { AtRate } from 'taro-ui';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import { AtRate } from 'taro-ui'
 
 export default class DataEntryRate extends Taro.Component<any, any> {
     constructor(props: any) {

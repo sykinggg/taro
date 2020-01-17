@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import { AtActivityIndicator } from 'taro-ui';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import { AtActivityIndicator } from 'taro-ui'
 
 export default class FeedbackActivityIndicator extends Taro.Component {
     constructor(props: any) {

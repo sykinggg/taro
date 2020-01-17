@@ -1,22 +1,21 @@
 import Taro from '@tarojs/taro'
-import { View, Swiper, SwiperItem, Image } from '@tarojs/components';
-import './index.scss';
-import DocsHeader from '../../components/doc-header';
-import ToHome from '../../components/to-home';
-
-import { AtNoticebar, AtSteps, AtDivider, AtLoadMore, AtTimeline, AtCurtain } from 'taro-ui';
-import ViewArticledemo from './articledemo';
-import ViewAvatar from './avatar';
-import ViewBadge from './badge';
-import ViewTag from './tag';
-import ViewCountdown from './countdown';
-import ViewCurtain from './curtain';
-import ViewNoticebar from './noticebar';
-import ViewSteps from './steps';
-import ViewSwiper from './swiper';
-import ViewTimeline from './timeline';
-import ViewDivider from './divider';
-import ViewLoadMore from './loadMore';
+import { View } from '@tarojs/components'
+import './index.scss'
+import './index.rn.scss'
+import DocsHeader from '../../components/doc-header'
+import ToHome from '../../components/to-home'
+import ViewArticledemo from './articledemo'
+import ViewAvatar from './avatar'
+import ViewBadge from './badge'
+import ViewTag from './tag'
+import ViewCountdown from './countdown'
+import ViewCurtain from './curtain'
+import ViewNoticebar from './noticebar'
+import ViewSteps from './steps'
+import ViewSwiper from './swiper'
+import ViewTimeline from './timeline'
+import ViewDivider from './divider'
+import ViewLoadMore from './loadMore'
 
 export class ViewComponent extends Taro.Component<any, any> {
     constructor(props: any) {

@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import { AtImagePicker } from 'taro-ui';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import { AtImagePicker } from 'taro-ui'
 
 export default class DataEntryImagePicker extends Taro.Component<any, any> {
     constructor(props: any) {

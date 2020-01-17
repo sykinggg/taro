@@ -1,5 +1,6 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
+import './index.rn.scss'
 import { View } from '@tarojs/components';
 import ToHome from 'src/components/to-home';
 import DocsHeader from 'src/components/doc-header';

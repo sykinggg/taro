@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import { AtCheckbox } from 'taro-ui';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import { AtCheckbox } from 'taro-ui'
 
 export default class DataEntryCheckbox extends Taro.Component<any, any> {
     constructor(props: any) {

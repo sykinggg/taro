@@ -1,6 +1,7 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View, Swiper, SwiperItem, Image } from '@tarojs/components';
+import './index.rn.scss'
+import { View, Swiper, SwiperItem, Image } from '@tarojs/components'
 
 export default class ViewSwiper extends Taro.Component<any, any> {
     constructor(props: any) {

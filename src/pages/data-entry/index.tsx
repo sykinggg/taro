@@ -1,21 +1,22 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import DocsHeader from '../../components/doc-header';
-import ToHome from '../../components/to-home';
-import DataEntryRadio from './radio';
-import DataEntryCheckbox from './checkbox';
-import DataEntrySwitch from './switch';
-import DataEntryInput from './input';
-import DataEntryTextarea from './textarea';
-import DataEntrySearchBar from './searchBar';
-import DataEntryInputNumber from './inputNumber';
-import DataEntryRange from './range';
-import DataEntrySlider from './slider';
-import DataEntryRate from './rate';
-import DataEntryImagePicker from './imagePicker';
-import DataEntryPicker from './picker';
-import DataEntryPickerView from './pickerView';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import DocsHeader from '../../components/doc-header'
+import ToHome from '../../components/to-home'
+import DataEntryRadio from './radio'
+import DataEntryCheckbox from './checkbox'
+import DataEntrySwitch from './switch'
+import DataEntryInput from './input'
+import DataEntryTextarea from './textarea'
+import DataEntrySearchBar from './searchBar'
+import DataEntryInputNumber from './inputNumber'
+import DataEntryRange from './range'
+import DataEntrySlider from './slider'
+import DataEntryRate from './rate'
+import DataEntryImagePicker from './imagePicker'
+import DataEntryPicker from './picker'
+import DataEntryPickerView from './pickerView'
 
 export default class DataEntry extends Taro.Component {
     constructor(props: any) {

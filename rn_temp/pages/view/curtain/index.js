@@ -2,6 +2,7 @@ import Taro from '@tarojs/taro-rn';
 import React from 'react';
 
 import indexStyleSheet from "./index_styles";
+
 import { View, Image } from "@tarojs/components-rn";
 import { AtCurtain } from "taro-ui";
 import curtainPng from '../../../assets/images/curtain.png';

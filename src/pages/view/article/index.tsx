@@ -1,5 +1,7 @@
 import Taro from '@tarojs/taro'
 import { View, Image } from '@tarojs/components'
+import './index.scss'
+import './index.rn.scss'
 
 export default class Article extends Taro.Component {
 

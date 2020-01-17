@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import NavigatorBtn from '../../../components/navigator-btn';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import NavigatorBtn from '../../../components/navigator-btn'
 
 export default class ViewArticledemo extends Taro.Component {
     constructor(props: any) {

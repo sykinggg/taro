@@ -1,16 +1,16 @@
-import Taro from '@tarojs/taro';
-import { View } from '@tarojs/components';
-
-import './index.scss';
-import DocsHeader from '../../components/doc-header';
-import ToHome from '../../components/to-home';
-import FeedbackActionSheet from './actionSheet';
-import FeedbackMessage from './message';
-import FeedbackModal from './modal';
-import FeedbackToast from './toast';
-import FeedbackProgress from './progress';
-import FeedbackSwipeAction from './swipeAction';
-import FeedbackActivityIndicator from './activityIndicator';
+import Taro from '@tarojs/taro'
+import { View } from '@tarojs/components'
+import './index.scss'
+import './index.rn.scss'
+import DocsHeader from '../../components/doc-header'
+import ToHome from '../../components/to-home'
+import FeedbackActionSheet from './actionSheet'
+import FeedbackMessage from './message'
+import FeedbackModal from './modal'
+import FeedbackToast from './toast'
+import FeedbackProgress from './progress'
+import FeedbackSwipeAction from './swipeAction'
+import FeedbackActivityIndicator from './activityIndicator'
 
 
 export default class Feedback extends Taro.Component<any, any> {

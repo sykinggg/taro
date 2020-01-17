@@ -2,6 +2,7 @@ import Taro, { Component, Config } from '@tarojs/taro'
 import { View, Image } from '@tarojs/components'
 import logoImg from '../../assets/images/logo_taro.png'
 import './index.scss'
+import './index.rn.scss'
 
 export default class Index extends Component<any, any> {
 

@@ -1,10 +1,11 @@
 import Taro from '@tarojs/taro'
-import { View, Text } from '@tarojs/components';
-import { AtButton, AtIcon, AtFab } from 'taro-ui';
-import DocsHeader from '../../components/doc-header';
+import { View, Text } from '@tarojs/components'
+import { AtButton, AtIcon, AtFab } from 'taro-ui'
+import DocsHeader from '../../components/doc-header'
 
-import './index.scss';
-import ToHome from '../../components/to-home';
+import './index.scss'
+import './index.rn.scss'
+import ToHome from '../../components/to-home'
 
 export default class BaseComponent extends Taro.Component {
     public config = {

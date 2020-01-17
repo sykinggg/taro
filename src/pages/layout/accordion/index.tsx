@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import { AtAccordion, AtList, AtListItem } from 'taro-ui';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import { AtAccordion, AtList, AtListItem } from 'taro-ui'
 
 export default class LayoutAccordion extends Taro.Component {
     constructor(props: any) {

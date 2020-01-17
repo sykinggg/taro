@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import { AtRange } from 'taro-ui';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import { AtRange } from 'taro-ui'
 
 export default class DataEntryRange extends Taro.Component<any, any> {
     constructor(props: any) {

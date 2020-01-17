@@ -5,6 +5,7 @@ import { View, Text } from "@tarojs/components-rn";
 import { AtButton, AtIcon, AtFab } from 'taro-ui';
 import DocsHeader from "../../components/doc-header/index";
 import indexStyleSheet from "./index_styles";
+
 import ToHome from "../../components/to-home/index";
 var _styleSheet = indexStyleSheet;
 let BaseComponent = class BaseComponent extends Taro.Component {

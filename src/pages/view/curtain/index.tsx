@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View, Image } from "@tarojs/components";
-import { AtCurtain } from "taro-ui";
+import './index.rn.scss'
+import { View, Image } from "@tarojs/components"
+import { AtCurtain } from "taro-ui"
 import curtainPng from '../../../assets/images/curtain.png'
 
 export default class ViewCurtain extends Taro.Component<any, any> {

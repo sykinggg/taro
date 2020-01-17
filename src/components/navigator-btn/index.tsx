@@ -1,6 +1,9 @@
 import Taro from '@tarojs/taro'
 import { View } from '@tarojs/components';
 
+// import './index.scss'
+import './index.rn.scss'
+
 export interface NavigatorBtnProps {
     parent: string
     name: string

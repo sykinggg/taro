@@ -2,6 +2,7 @@ import Taro from '@tarojs/taro-rn';
 import React from 'react';
 
 import indexStyleSheet from "./index_styles";
+
 import { View } from "@tarojs/components-rn";
 import { AtTimeline } from 'taro-ui';
 var _styleSheet = indexStyleSheet;

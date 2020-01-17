@@ -2,6 +2,7 @@ import Taro from '@tarojs/taro-rn';
 import React from 'react';
 
 import indexStyleSheet from "./index_styles";
+
 import { View, Swiper, SwiperItem, Image } from "@tarojs/components-rn";
 var _styleSheet = indexStyleSheet;
 let ViewSwiper = class ViewSwiper extends Taro.Component {

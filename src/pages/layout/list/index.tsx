@@ -1,7 +1,8 @@
 import Taro from '@tarojs/taro'
 import './index.scss'
-import { View } from '@tarojs/components';
-import { AtList, AtListItem } from 'taro-ui';
+import './index.rn.scss'
+import { View } from '@tarojs/components'
+import { AtList, AtListItem } from 'taro-ui'
 
 export default class LayoutList extends Taro.Component {
     constructor(props: any) {
